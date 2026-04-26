@@ -34,11 +34,17 @@ app = Flask(__name__)
 # Íconos y colores por categoría (usados en el frontend)
 # ---------------------------------------------------------------------------
 CATEGORY_META = {
-    'Soporte Técnico':  {'icon': 'fa-wrench',         'color': '#2563eb', 'bg': '#eff6ff'},
-    'Facturación':      {'icon': 'fa-file-invoice',   'color': '#16a34a', 'bg': '#f0fdf4'},
-    'Consulta General': {'icon': 'fa-circle-question','color': '#9333ea', 'bg': '#faf5ff'},
-    'Queja':            {'icon': 'fa-triangle-exclamation','color': '#dc2626','bg': '#fef2f2'},
-    'Cancelación':      {'icon': 'fa-ban',            'color': '#ea580c', 'bg': '#fff7ed'},
+    'ACCOUNT':      {'icon': 'fa-user-circle',            'color': '#2563eb', 'bg': '#eff6ff'},
+    'CANCEL':       {'icon': 'fa-ban',                    'color': '#ea580c', 'bg': '#fff7ed'},
+    'CONTACT':      {'icon': 'fa-headset',                'color': '#0891b2', 'bg': '#ecfeff'},
+    'DELIVERY':     {'icon': 'fa-truck',                  'color': '#16a34a', 'bg': '#f0fdf4'},
+    'FEEDBACK':     {'icon': 'fa-star',                   'color': '#ca8a04', 'bg': '#fefce8'},
+    'INVOICE':      {'icon': 'fa-file-invoice',           'color': '#7c3aed', 'bg': '#f5f3ff'},
+    'ORDER':        {'icon': 'fa-box',                    'color': '#0284c7', 'bg': '#f0f9ff'},
+    'PAYMENT':      {'icon': 'fa-credit-card',            'color': '#059669', 'bg': '#ecfdf5'},
+    'REFUND':       {'icon': 'fa-rotate-left',            'color': '#dc2626', 'bg': '#fef2f2'},
+    'SHIPPING':     {'icon': 'fa-shipping-fast',          'color': '#d97706', 'bg': '#fffbeb'},
+    'SUBSCRIPTION': {'icon': 'fa-calendar-check',         'color': '#9333ea', 'bg': '#faf5ff'},
 }
 
 # ---------------------------------------------------------------------------
